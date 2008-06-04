@@ -1,0 +1,27 @@
+// ============================================================================
+//  $Id$
+// ============================================================================
+//
+//  File:      TAFontField.classdescription
+//
+//  Summary:   IB class description for the TAFontField control.
+//
+//  Author:    Tony Allevato
+//
+// ============================================================================
+
+{
+    Actions =
+    {
+        "chooseFont:" = id;
+    };
+    
+    Outlets =
+    {
+        delegate = id;
+    };
+
+    ClassName = TAFontField; 
+
+    SuperClass = NSView; 
+}

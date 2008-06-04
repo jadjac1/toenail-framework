@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53DF6901067E5B8E0090B5B0 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				53DF6903067E5B930090B5B0 /* PBXTargetDependency */,
+				53DF6905067E5B930090B5B0 /* PBXTargetDependency */,
+				1D7802E20D43C4EC00A69F5E /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		1D14FEF60D4D97010032E7CF /* TATreePopUpButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D14FEB70D4D8D610032E7CF /* TATreePopUpButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D14FEF70D4D970C0032E7CF /* TATreePopUpButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D14FEB70D4D8D610032E7CF /* TATreePopUpButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D14FEF80D4D97190032E7CF /* TATreePopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14FEB80D4D8D610032E7CF /* TATreePopUpButtonCell.m */; };
+		1D14FEF90D4D97210032E7CF /* TATreePopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14FEB80D4D8D610032E7CF /* TATreePopUpButtonCell.m */; };
+		1D14FF2D0D4D973F0032E7CF /* TATreePopUpButtonCell+IBIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14FEED0D4D96B50032E7CF /* TATreePopUpButtonCell+IBIntegration.m */; };
+		1D14FF4E0D4D9DC50032E7CF /* TATreePopUpButtonCell-Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D14FF4B0D4D9DB80032E7CF /* TATreePopUpButtonCell-Library.png */; };
+		1D2494080D4EBF72004AC03D /* TATreePopUpButtonCell.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 1D14FEEB0D4D962D0032E7CF /* TATreePopUpButtonCell.classdescription */; };
+		1D612B5A0DA13A1600BE3166 /* TATreePopUpButtonFakeProxyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D612B330DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.m */; };
+		1D612B5B0DA13A1600BE3166 /* TATreePopUpButtonSubMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D612B310DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.m */; };
+		1D612B5C0DA13A2100BE3166 /* TATreePopUpButtonFakeProxyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D612B330DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.m */; };
+		1D612B5D0DA13A2100BE3166 /* TATreePopUpButtonSubMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D612B310DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.m */; };
+		1D78003D0D43A05F00A69F5E /* TATreePopUpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34A3F20D2AB0F00054EA60 /* TATreePopUpButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D78003F0D43A05F00A69F5E /* TAFontField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D78FF5B0D42D2A400A69F5E /* TAFontField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7800440D43A05F00A69F5E /* TATreePopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D34A3F30D2AB0F00054EA60 /* TATreePopUpButton.m */; };
+		1D7800460D43A05F00A69F5E /* TAFontField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78FF5C0D42D2A400A69F5E /* TAFontField.m */; };
+		1D78004A0D43A05F00A69F5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		1D78FF950D42DE6500A69F5E /* TATreePopUpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34A3F20D2AB0F00054EA60 /* TATreePopUpButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D78FF970D42DE6500A69F5E /* TAFontField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D78FF5B0D42D2A400A69F5E /* TAFontField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D78FF980D42DE7D00A69F5E /* TATreePopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D34A3F30D2AB0F00054EA60 /* TATreePopUpButton.m */; };
+		1D78FF9A0D42DE7D00A69F5E /* TAFontField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78FF5C0D42D2A400A69F5E /* TAFontField.m */; };
+		1D78FFB40D42DFD100A69F5E /* TATreePopUpButton.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 1D34A40B0D2B430A0054EA60 /* TATreePopUpButton.classdescription */; };
+		1D78FFB50D42DFD100A69F5E /* TAFontField.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 1D78FF5E0D42D3D600A69F5E /* TAFontField.classdescription */; };
+		1D78FFC40D42E01900A69F5E /* TAFontFieldInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78FF840D42DC3000A69F5E /* TAFontFieldInspector.m */; };
+		1D78FFC50D42E01900A69F5E /* TATreePopUpButtonInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D34A40D0D2B454D0054EA60 /* TATreePopUpButtonInspector.m */; };
+		1D78FFC60D42E01900A69F5E /* TATreePopUpButton+IBIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D34A40A0D2B42B60054EA60 /* TATreePopUpButton+IBIntegration.m */; };
+		1D78FFC70D42E01900A69F5E /* TAFontField+IBIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78FF610D42DB3000A69F5E /* TAFontField+IBIntegration.m */; };
+		1DB1011B0D49A12F00BDF57C /* Toenail.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB100DF0D495B5100BDF57C /* Toenail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB1011E0D49A13800BDF57C /* Toenail.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB100DF0D495B5100BDF57C /* Toenail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DFAF9570DF75304002CFF78 /* ToenailLibrary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFAF9550DF75304002CFF78 /* ToenailLibrary.xib */; };
+		1DFAF9620DF7536C002CFF78 /* TAFontFieldInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFAF9600DF7536C002CFF78 /* TAFontFieldInspector.xib */; };
+		1DFAF9670DF75383002CFF78 /* TATreePopUpButtonInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFAF9650DF75383002CFF78 /* TATreePopUpButtonInspector.xib */; };
+		546DEAF3067F632A0098DCC4 /* Toenail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* Toenail.framework */; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */; };
+		C08787290A49DE9A00E9B151 /* ToenailPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* ToenailPlugin.m */; };
+		C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D7802E10D43C4EC00A69F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D78003B0D43A05F00A69F5E;
+			remoteInfo = "ToenailFramework (embedded)";
+		};
+		53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1AC9600486D14A00FE50C9;
+			remoteInfo = Toenail;
+		};
+		53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = ToenailFramework;
+		};
+		546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = ToenailFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0259C576FE90428111CA0C5A /* ToenailPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ToenailPlugin.m; sourceTree = "<group>"; };
+		0259C57AFE90428111CA0C5A /* ToenailPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ToenailPlugin.h; sourceTree = "<group>"; };
+		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1D14FEB70D4D8D610032E7CF /* TATreePopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATreePopUpButtonCell.h; sourceTree = "<group>"; };
+		1D14FEB80D4D8D610032E7CF /* TATreePopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATreePopUpButtonCell.m; sourceTree = "<group>"; };
+		1D14FEEB0D4D962D0032E7CF /* TATreePopUpButtonCell.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TATreePopUpButtonCell.classdescription; sourceTree = "<group>"; };
+		1D14FEED0D4D96B50032E7CF /* TATreePopUpButtonCell+IBIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TATreePopUpButtonCell+IBIntegration.m"; sourceTree = "<group>"; };
+		1D14FF4B0D4D9DB80032E7CF /* TATreePopUpButtonCell-Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TATreePopUpButtonCell-Library.png"; path = "Images/TATreePopUpButtonCell-Library.png"; sourceTree = "<group>"; };
+		1D34A3F20D2AB0F00054EA60 /* TATreePopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATreePopUpButton.h; sourceTree = "<group>"; };
+		1D34A3F30D2AB0F00054EA60 /* TATreePopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATreePopUpButton.m; sourceTree = "<group>"; };
+		1D34A40A0D2B42B60054EA60 /* TATreePopUpButton+IBIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TATreePopUpButton+IBIntegration.m"; sourceTree = "<group>"; };
+		1D34A40B0D2B430A0054EA60 /* TATreePopUpButton.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TATreePopUpButton.classdescription; sourceTree = "<group>"; };
+		1D34A40C0D2B454D0054EA60 /* TATreePopUpButtonInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATreePopUpButtonInspector.h; sourceTree = "<group>"; };
+		1D34A40D0D2B454D0054EA60 /* TATreePopUpButtonInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATreePopUpButtonInspector.m; sourceTree = "<group>"; };
+		1D612A390DA12F6C00BE3166 /* TATreePopUpButtonCell+SharedPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TATreePopUpButtonCell+SharedPrivate.h"; sourceTree = "<group>"; };
+		1D612B2F0DA1389500BE3166 /* TATreePopUpButton+SharedPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TATreePopUpButton+SharedPrivate.h"; sourceTree = "<group>"; };
+		1D612B300DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATreePopUpButtonSubMenuHelper.h; sourceTree = "<group>"; };
+		1D612B310DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATreePopUpButtonSubMenuHelper.m; sourceTree = "<group>"; };
+		1D612B320DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATreePopUpButtonFakeProxyItem.h; sourceTree = "<group>"; };
+		1D612B330DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATreePopUpButtonFakeProxyItem.m; sourceTree = "<group>"; };
+		1D78004E0D43A05F00A69F5E /* Toenail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toenail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D78FF5B0D42D2A400A69F5E /* TAFontField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFontField.h; sourceTree = "<group>"; };
+		1D78FF5C0D42D2A400A69F5E /* TAFontField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFontField.m; sourceTree = "<group>"; };
+		1D78FF5E0D42D3D600A69F5E /* TAFontField.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TAFontField.classdescription; sourceTree = "<group>"; };
+		1D78FF610D42DB3000A69F5E /* TAFontField+IBIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TAFontField+IBIntegration.m"; sourceTree = "<group>"; };
+		1D78FF830D42DC3000A69F5E /* TAFontFieldInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFontFieldInspector.h; sourceTree = "<group>"; };
+		1D78FF840D42DC3000A69F5E /* TAFontFieldInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFontFieldInspector.m; sourceTree = "<group>"; };
+		1DB100DF0D495B5100BDF57C /* Toenail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toenail.h; sourceTree = "<group>"; };
+		1DFAF9560DF75304002CFF78 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ToenailLibrary.xib; sourceTree = "<group>"; };
+		1DFAF9610DF7536C002CFF78 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TAFontFieldInspector.xib; sourceTree = "<group>"; };
+		1DFAF9660DF75383002CFF78 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TATreePopUpButtonInspector.xib; sourceTree = "<group>"; };
+		32DBCF980370C29C00C91783 /* Toenail_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toenail_Prefix.pch; sourceTree = "<group>"; };
+		53DF68FD067E5B5A0090B5B0 /* Toenail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toenail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DF68FE067E5B5A0090B5B0 /* ToenailFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToenailFramework-Info.plist"; sourceTree = "<group>"; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* Toenail.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toenail.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7800490D43A05F00A69F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D78004A0D43A05F00A69F5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68FB067E5B5A0090B5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				546DEAF3067F632A0098DCC4 /* Toenail.framework in Frameworks */,
+				C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* Toenail */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF9E0370C38000C91783 /* Plugin */,
+				54D33B2C06778E4400C9C163 /* Framework */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+			);
+			name = Toenail;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+				53DF68FE067E5B5A0090B5B0 /* ToenailFramework-Info.plist */,
+				8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		131E8FE8067F80F40006E0CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DFAF9550DF75304002CFF78 /* ToenailLibrary.xib */,
+				1DFAF9600DF7536C002CFF78 /* TAFontFieldInspector.xib */,
+				1DFAF9650DF75383002CFF78 /* TATreePopUpButtonInspector.xib */,
+				1D14FF4B0D4D9DB80032E7CF /* TATreePopUpButtonCell-Library.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13F8B6FD07B43410008AE28D /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		13F8B70407B43425008AE28D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B88807B434F6008AE28D /* AppKit.framework */,
+				13F8B88907B434F6008AE28D /* CoreData.framework */,
+				13F8B88A07B434F6008AE28D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D612B340DA139A300BE3166 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				1D612B2F0DA1389500BE3166 /* TATreePopUpButton+SharedPrivate.h */,
+				1D612A390DA12F6C00BE3166 /* TATreePopUpButtonCell+SharedPrivate.h */,
+				1D612B320DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.h */,
+				1D612B330DA1399600BE3166 /* TATreePopUpButtonFakeProxyItem.m */,
+				1D612B300DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.h */,
+				1D612B310DA1392800BE3166 /* TATreePopUpButtonSubMenuHelper.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		1DB100DA0D495AEC00BDF57C /* Other Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1DB100DF0D495B5100BDF57C /* Toenail.h */,
+			);
+			name = "Other Headers";
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9740486D14A00FE50C9 /* Toenail.ibplugin */,
+				53DF68FD067E5B5A0090B5B0 /* Toenail.framework */,
+				1D78004E0D43A05F00A69F5E /* Toenail.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B6FD07B43410008AE28D /* Linked Frameworks */,
+				13F8B70407B43425008AE28D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				54D33B2406778DD400C9C163 /* Class Descriptions */,
+				54D33B2506778DF000C9C163 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				131E8FE8067F80F40006E0CE /* Resources */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF980370C29C00C91783 /* Toenail_Prefix.pch */,
+				1D78FF610D42DB3000A69F5E /* TAFontField+IBIntegration.m */,
+				1D34A40A0D2B42B60054EA60 /* TATreePopUpButton+IBIntegration.m */,
+				1D14FEED0D4D96B50032E7CF /* TATreePopUpButtonCell+IBIntegration.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		54D33B2406778DD400C9C163 /* Class Descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				1D78FF5E0D42D3D600A69F5E /* TAFontField.classdescription */,
+				1D34A40B0D2B430A0054EA60 /* TATreePopUpButton.classdescription */,
+				1D14FEEB0D4D962D0032E7CF /* TATreePopUpButtonCell.classdescription */,
+			);
+			name = "Class Descriptions";
+			sourceTree = "<group>";
+		};
+		54D33B2506778DF000C9C163 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0259C57AFE90428111CA0C5A /* ToenailPlugin.h */,
+				0259C576FE90428111CA0C5A /* ToenailPlugin.m */,
+				1D78FF830D42DC3000A69F5E /* TAFontFieldInspector.h */,
+				1D78FF840D42DC3000A69F5E /* TAFontFieldInspector.m */,
+				1D34A40C0D2B454D0054EA60 /* TATreePopUpButtonInspector.h */,
+				1D34A40D0D2B454D0054EA60 /* TATreePopUpButtonInspector.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		54D33B2C06778E4400C9C163 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1DB100DA0D495AEC00BDF57C /* Other Headers */,
+				C0894DA40C32F4C100401507 /* Classes */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C0894DA40C32F4C100401507 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D612B340DA139A300BE3166 /* Private */,
+				1D34A3F20D2AB0F00054EA60 /* TATreePopUpButton.h */,
+				1D34A3F30D2AB0F00054EA60 /* TATreePopUpButton.m */,
+				1D14FEB70D4D8D610032E7CF /* TATreePopUpButtonCell.h */,
+				1D14FEB80D4D8D610032E7CF /* TATreePopUpButtonCell.m */,
+				1D78FF5B0D42D2A400A69F5E /* TAFontField.h */,
+				1D78FF5C0D42D2A400A69F5E /* TAFontField.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D78003C0D43A05F00A69F5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB1011E0D49A13800BDF57C /* Toenail.h in Headers */,
+				1D78003D0D43A05F00A69F5E /* TATreePopUpButton.h in Headers */,
+				1D14FEF70D4D970C0032E7CF /* TATreePopUpButtonCell.h in Headers */,
+				1D78003F0D43A05F00A69F5E /* TAFontField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68F8067E5B5A0090B5B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB1011B0D49A12F00BDF57C /* Toenail.h in Headers */,
+				1D78FF950D42DE6500A69F5E /* TATreePopUpButton.h in Headers */,
+				1D14FEF60D4D97010032E7CF /* TATreePopUpButtonCell.h in Headers */,
+				1D78FF970D42DE6500A69F5E /* TAFontField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D78003B0D43A05F00A69F5E /* ToenailFramework (embedded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D78004B0D43A05F00A69F5E /* Build configuration list for PBXNativeTarget "ToenailFramework (embedded)" */;
+			buildPhases = (
+				1D78003C0D43A05F00A69F5E /* Headers */,
+				1D7800420D43A05F00A69F5E /* Resources */,
+				1D7800430D43A05F00A69F5E /* Sources */,
+				1D7800490D43A05F00A69F5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToenailFramework (embedded)";
+			productName = ToenailFramework;
+			productReference = 1D78004E0D43A05F00A69F5E /* Toenail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53DF68FC067E5B5A0090B5B0 /* ToenailFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "ToenailFramework" */;
+			buildPhases = (
+				53DF68F8067E5B5A0090B5B0 /* Headers */,
+				53DF68F9067E5B5A0090B5B0 /* Resources */,
+				53DF68FA067E5B5A0090B5B0 /* Sources */,
+				53DF68FB067E5B5A0090B5B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToenailFramework;
+			productName = ToenailFramework;
+			productReference = 53DF68FD067E5B5A0090B5B0 /* Toenail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1AC9600486D14A00FE50C9 /* Toenail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "Toenail" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546DEAF0067F62F70098DCC4 /* PBXTargetDependency */,
+			);
+			name = Toenail;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = Toenail;
+			productReference = 8D1AC9740486D14A00FE50C9 /* Toenail.ibplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "Toenail" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* Toenail */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DF6901067E5B8E0090B5B0 /* All */,
+				8D1AC9600486D14A00FE50C9 /* Toenail */,
+				53DF68FC067E5B5A0090B5B0 /* ToenailFramework */,
+				1D78003B0D43A05F00A69F5E /* ToenailFramework (embedded) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7800420D43A05F00A69F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68F9067E5B5A0090B5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D14FF4E0D4D9DC50032E7CF /* TATreePopUpButtonCell-Library.png in Resources */,
+				1D78FFB50D42DFD100A69F5E /* TAFontField.classdescription in Resources */,
+				1D78FFB40D42DFD100A69F5E /* TATreePopUpButton.classdescription in Resources */,
+				1D2494080D4EBF72004AC03D /* TATreePopUpButtonCell.classdescription in Resources */,
+				8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */,
+				1DFAF9570DF75304002CFF78 /* ToenailLibrary.xib in Resources */,
+				1DFAF9620DF7536C002CFF78 /* TAFontFieldInspector.xib in Resources */,
+				1DFAF9670DF75383002CFF78 /* TATreePopUpButtonInspector.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7800430D43A05F00A69F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7800440D43A05F00A69F5E /* TATreePopUpButton.m in Sources */,
+				1D14FEF90D4D97210032E7CF /* TATreePopUpButtonCell.m in Sources */,
+				1D612B5C0DA13A2100BE3166 /* TATreePopUpButtonFakeProxyItem.m in Sources */,
+				1D612B5D0DA13A2100BE3166 /* TATreePopUpButtonSubMenuHelper.m in Sources */,
+				1D7800460D43A05F00A69F5E /* TAFontField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DF68FA067E5B5A0090B5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D78FF980D42DE7D00A69F5E /* TATreePopUpButton.m in Sources */,
+				1D14FEF80D4D97190032E7CF /* TATreePopUpButtonCell.m in Sources */,
+				1D612B5A0DA13A1600BE3166 /* TATreePopUpButtonFakeProxyItem.m in Sources */,
+				1D612B5B0DA13A1600BE3166 /* TATreePopUpButtonSubMenuHelper.m in Sources */,
+				1D78FF9A0D42DE7D00A69F5E /* TAFontField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D78FFC40D42E01900A69F5E /* TAFontFieldInspector.m in Sources */,
+				1D78FFC70D42E01900A69F5E /* TAFontField+IBIntegration.m in Sources */,
+				1D14FF2D0D4D973F0032E7CF /* TATreePopUpButtonCell+IBIntegration.m in Sources */,
+				1D78FFC50D42E01900A69F5E /* TATreePopUpButtonInspector.m in Sources */,
+				1D78FFC60D42E01900A69F5E /* TATreePopUpButton+IBIntegration.m in Sources */,
+				C08787290A49DE9A00E9B151 /* ToenailPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D7802E20D43C4EC00A69F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D78003B0D43A05F00A69F5E /* ToenailFramework (embedded) */;
+			targetProxy = 1D7802E10D43C4EC00A69F5E /* PBXContainerItemProxy */;
+		};
+		53DF6903067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1AC9600486D14A00FE50C9 /* Toenail */;
+			targetProxy = 53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* ToenailFramework */;
+			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		546DEAF0067F62F70098DCC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* ToenailFramework */;
+			targetProxy = 546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DFAF9550DF75304002CFF78 /* ToenailLibrary.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFAF9560DF75304002CFF78 /* English */,
+			);
+			name = ToenailLibrary.xib;
+			sourceTree = "<group>";
+		};
+		1DFAF9600DF7536C002CFF78 /* TAFontFieldInspector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFAF9610DF7536C002CFF78 /* English */,
+			);
+			name = TAFontFieldInspector.xib;
+			sourceTree = "<group>";
+		};
+		1DFAF9650DF75383002CFF78 /* TATreePopUpButtonInspector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFAF9660DF75383002CFF78 /* English */,
+			);
+			name = TATreePopUpButtonInspector.xib;
+			sourceTree = "<group>";
+		};
+		8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1AC97B0486D23100FE50C9 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D78004C0D43A05F00A69F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "/Volumes/Data/Development/Xcode Projects/Toenail/ToenailFramework-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = Toenail;
+				SKIP_INSTALL = NO;
+				SYMROOT = "build-embed";
+			};
+			name = Debug;
+		};
+		1D78004D0D43A05F00A69F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "/Volumes/Data/Development/Xcode Projects/Toenail/ToenailFramework-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = Toenail;
+				SKIP_INSTALL = NO;
+				SYMROOT = "build-embed";
+			};
+			name = Release;
+		};
+		C056398008A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ToenailFramework-Info.plist";
+				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				PRODUCT_NAME = Toenail;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C056398108A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ToenailFramework-Info.plist";
+				PRODUCT_NAME = Toenail;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		C056398408A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/ToenailFramework.framework/Resources/";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					$inherited,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_2,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_1,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(HOME)/Library/Frameworks/\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(BUILD_DIR)/$(CONFIGURATION)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toenail_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Toenail;
+				WRAPPER_EXTENSION = ibplugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C056398508A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/ToenailFramework.framework/Resources/";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					$inherited,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_2,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_1,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(HOME)/Library/Frameworks/\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(BUILD_DIR)/$(CONFIGURATION)\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Toenail_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Toenail;
+				WRAPPER_EXTENSION = ibplugin;
+			};
+			name = Release;
+		};
+		C056398808A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C056398908A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		C056398C08A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		C056398D08A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D78004B0D43A05F00A69F5E /* Build configuration list for PBXNativeTarget "ToenailFramework (embedded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D78004C0D43A05F00A69F5E /* Debug */,
+				1D78004D0D43A05F00A69F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "ToenailFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398008A954F8003078D8 /* Debug */,
+				C056398108A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "Toenail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398408A954F8003078D8 /* Debug */,
+				C056398508A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398808A954F8003078D8 /* Debug */,
+				C056398908A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398B08A954F8003078D8 /* Build configuration list for PBXProject "Toenail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398C08A954F8003078D8 /* Debug */,
+				C056398D08A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}
