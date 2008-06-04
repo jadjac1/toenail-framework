@@ -1,0 +1,25 @@
+// ============================================================================
+//  $Id$
+// ============================================================================
+//
+//  File:      TATreePopUpButton.classdescription
+//
+//  Summary:   IB class description for the TATreePopUpButton control.
+//
+//  Author:    Tony Allevato
+//
+// ============================================================================
+
+{
+    Actions = { };
+
+    Outlets =
+    {
+        delegate = id;
+        dataSource = id;
+    };
+    
+    ClassName = TATreePopUpButton; 
+    
+    SuperClass = NSPopUpButton; 
+}
